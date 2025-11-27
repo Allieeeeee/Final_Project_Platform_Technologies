@@ -34,14 +34,16 @@ app.get("/", (req, res) => {
           .section {
             font-size: 16px;
             margin-top: 5px;
-            color: #555;
+            color: #444;
           }
-            img.quote-img{
-            width: 100%;
+          img.quote-img {
+            width: 80%;
+            max-height: 200px;
+            object-fit: contain;
             border-radius: 10px;
-            margin-top: 20px;
-            margin-bottom: 20px;
-            }
+            margin-top: 15px;
+            margin-bottom: 15px;
+          }
           .quote {
             margin-top: 20px;
             font-style: italic;
