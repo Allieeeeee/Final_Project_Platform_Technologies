@@ -37,7 +37,7 @@ app.get("/", (req, res) => {
             color: #444;
           }
           img.quote-img {
-            width: 80%;
+            width: 100%;
             max-height: 200px;
             object-fit: cover;
             border-radius: 10px;
