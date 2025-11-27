@@ -36,7 +36,7 @@ app.get("/", (req, res) => {
             margin-top: 5px;
             color: #444;
           }
-          img.quote-img {
+          img.waltdisney-img {
             width: 80%;
             max-height: 200px;
             object-fit: contain;
