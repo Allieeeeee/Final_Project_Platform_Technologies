@@ -12,7 +12,7 @@ app.get("/", (req, res) => {
         <style>
           body {
             font-family: Arial, sans-serif;
-            background-color: #f2f2f2;
+            background-color: #C4FFF7;
             display: flex;
             justify-content: center;
             align-items: center;
@@ -36,10 +36,17 @@ app.get("/", (req, res) => {
             margin-top: 5px;
             color: #555;
           }
+            img.quote-img{
+            width: 100%;
+            border-radius: 10px;
+            margin-top: 20px;
+            margin-bottom: 20px;
+            }
           .quote {
             margin-top: 20px;
             font-style: italic;
             color: #333;
+            font-size: 15px;
           }
         </style>
       </head>
@@ -47,8 +54,12 @@ app.get("/", (req, res) => {
         <div class="card">
           <div class="name">Shiela May N. Taccad</div>
           <div class="section">NT-4101</div>
+
+          <img src="waltdisney.jpg" class="quote-img" alt="Favorite Quote Image">
+
           <div class="quote">
-            "Keep Moving Forward" - Meet the Robinsons
+            "Keep Moving Forward" 
+            - Meet the Robinsons
           </div>
         </div>
       </body>
