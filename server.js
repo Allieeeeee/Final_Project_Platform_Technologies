@@ -37,12 +37,12 @@ app.get("/", (req, res) => {
             color: #444;
           }
           img.quote-img {
-            width: 70%;
-            max-height: 150px;
+            width: 80%;
+            max-height: 200px;
             object-fit: cover;
-            border-radius: 8px;
-            margin-top: 10px;
-            margin-bottom: 10px;
+            border-radius: 10px;
+            margin-top: 15px;
+            margin-bottom: 15px;
           }
           .quote {
             margin-top: 20px;
