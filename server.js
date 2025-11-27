@@ -12,7 +12,7 @@ app.get("/", (req, res) => {
         <style>
           body {
             font-family: Arial, sans-serif;
-            background-color: #C4FFF7;
+            background-color: #CEE5ED;
             display: flex;
             justify-content: center;
             align-items: center;
@@ -36,13 +36,13 @@ app.get("/", (req, res) => {
             margin-top: 5px;
             color: #444;
           }
-          img.waltdisney-img {
-            width: 80%;
-            max-height: 200px;
-            object-fit: contain;
-            border-radius: 10px;
-            margin-top: 15px;
-            margin-bottom: 15px;
+          img.quote-img {
+            width: 70%;
+            max-height: 150px;
+            object-fit: cover;
+            border-radius: 8px;
+            margin-top: 10px;
+            margin-bottom: 10px;
           }
           .quote {
             margin-top: 20px;
@@ -57,7 +57,7 @@ app.get("/", (req, res) => {
           <div class="name">Shiela May N. Taccad</div>
           <div class="section">NT-4101</div>
 
-          <img src="waltdisney.jpg" class="quote-img" alt="Favorite Quote Image">
+          <img src="quote.jpg" class="quote-img" alt="Favorite Quote Image">
 
           <div class="quote">
             "Keep Moving Forward" 
